@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Comic Sans MS ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(60, 61, 61);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tasks{
+  background-color: rgb(233, 233, 34);
+}
+
+.back{
+  background-color: black;
+}
