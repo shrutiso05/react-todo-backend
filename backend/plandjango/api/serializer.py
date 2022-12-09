@@ -4,4 +4,4 @@ from .models import Plan
 class PlanSerializer(serializers.ModelSerializer):
     class Meta:
         model = Plan
-        fields = ['id','title','description','completed']
+        fields = ['id','item']

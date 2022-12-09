@@ -15,4 +15,5 @@ class PlanCreate(CreateAPIView):
 class PlanDestroy(DestroyAPIView):
     serializer_class = PlanSerializer
     queryset = Plan.objects.all()
+    lookup_field ='id'
 # Create your views here.

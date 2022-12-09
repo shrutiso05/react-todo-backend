@@ -1,12 +1,8 @@
 from django.db import models
 
 class Plan(models.Model):
-    title = models.CharField(max_length=120)
-    description = models.TextField()
-    completed = models.BooleanField(default=False)
+    item = models.CharField(max_length=500)
 
-    def __str__(self):
-        return self.title
 
 
 

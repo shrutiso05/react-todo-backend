@@ -5,4 +5,4 @@ from .models import Plan
 
 @admin.register(Plan)
 class PlanModelAdmin(admin.ModelAdmin):
-    list_display = ('title','description','completed')
+    list_display = ['id', 'item']
